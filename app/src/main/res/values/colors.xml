@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorMarsala">#A35554</color>
+    <color name="colorMarsalaB">#550015</color>
+    <color name="colorRoz">#e4d1d1</color>
+    <color name="colorMov">#b0aac0</color>
+    <color name="colorGri">#c8c3cc</color>
+    <color name="colorMovInchis">#6b5b95</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorOrange">#fe6845</color>
+    <color name="colorRozPal">#fbf4f9</color>
+</resources>

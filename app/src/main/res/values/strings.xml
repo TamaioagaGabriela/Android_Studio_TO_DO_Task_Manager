@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">proiect_RM</string>
+    <string name="task">Set new task:</string>
+    <string name="data">DataPicker</string>
+    <string name="time">TimePicker</string>
+    <string name="enterTime">Enter time</string>
+    <string name="enterDate">Enter date</string>
+    <string name="description">Enter description task</string>
+    <string name="title">Enter title task</string>
+    <string name="alarm">Set alarm</string>
+    <string name="add_task">Add</string>
+    <string name="your_tasks">Your tasks:</string>
+    <string name="to_do">TO DO:</string>
+    <string name="doing">DOING:</string>
+    <string name="done">DONE:</string>
+    <string name="JSON">Tasks last month</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Enter your username</string>
+    <string name="password">Enter your password</string>
+</resources>

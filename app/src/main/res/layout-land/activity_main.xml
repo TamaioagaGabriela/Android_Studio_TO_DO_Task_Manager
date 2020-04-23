@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_back10"
+    tools:context=".activities.MainActivity">
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:onClick="onLoginButtonClick"
+        android:text="@string/login" />
+
+    <TextView
+        android:id="@+id/loginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="LOGIN"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorMarsala"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginTextView"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="27dp"
+        android:text="Username"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameTextView"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameEditText"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="-95dp"
+        android:text="Password"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordTextView"
+        android:layout_marginLeft="450dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+
+</RelativeLayout>

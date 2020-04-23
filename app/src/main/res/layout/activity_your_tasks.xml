@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@color/colorRozPal"
+    tools:context=".activities.ActivityYourTasks">
+
+    <TextView
+        android:id="@+id/text_view_your_tasks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_tasks"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorMarsala"
+        />
+
+    <FrameLayout
+        android:id="@+id/container_to_do"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp" />
+
+    <FrameLayout
+        android:id="@+id/container_doing"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="150dp" />
+
+    <FrameLayout
+        android:id="@+id/container_done"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="150dp" />
+
+    <ImageButton
+        android:id="@+id/btn_add_new_task"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/stroke"
+        android:src="@drawable/ic_add_task" />
+
+    <Button
+        android:id="@+id/addJson"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/stroke_recycler"
+        android:textColor="@color/colorMarsalaB"
+        android:onClick="addJsonButton"
+        android:text="@string/JSON" />
+
+</LinearLayout>

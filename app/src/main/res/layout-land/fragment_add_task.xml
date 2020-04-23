@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FragmentAddTask"
+    android:id="@+id/fragment_add_task"
+    android:orientation="vertical"
+    android:background="@drawable/stroke">
+
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/title" />
+
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/description" />
+
+    <EditText
+        android:id="@+id/edit_text_time"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:hint="@string/enterTime" />
+
+    <Button
+        android:id="@+id/btn_time"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="190dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background"
+        android:textColor="@color/colorWhite"
+        android:text="@string/time"></Button>
+
+    <TextView
+        android:id="@+id/text_view_time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_data"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:hint="@string/enterDate" />
+
+    <Button
+        android:id="@+id/btn_data"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="530dp"
+        android:background="@drawable/background"
+        android:textColor="@color/colorWhite"
+        android:text="@string/data" />
+
+    <TextView
+        android:id="@+id/text_view_data_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_data"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="140dp"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+
+
+    <Button
+        android:id="@+id/btn_alarm"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="190dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/stroke"
+        android:textColor="@color/colorMarsala"
+        android:text="@string/alarm"></Button>
+
+    <Button
+        android:id="@+id/btn_add_task"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="360dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/stroke"
+        android:textColor="@color/colorMarsala"
+        android:text="@string/add_task"></Button>
+
+</FrameLayout>
